@@ -16,6 +16,8 @@
 		3F7F2A47265BCFC500D0176B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F2A45265BCFC500D0176B /* LaunchScreen.storyboard */; };
 		3F7F2A52265BCFC500D0176B /* TrackEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F2A51265BCFC500D0176B /* TrackEventTests.swift */; };
 		3F7F2A5D265BCFC500D0176B /* TrackEventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F2A5C265BCFC500D0176B /* TrackEventUITests.swift */; };
+		3F7F2A6E265BD9A200D0176B /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F2A6D265BD9A200D0176B /* EntryViewController.swift */; };
+		3F7F2A73265BD9CF00D0176B /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F2A72265BD9CF00D0176B /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3F7F2A58265BCFC500D0176B /* TrackEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7F2A5C265BCFC500D0176B /* TrackEventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackEventUITests.swift; sourceTree = "<group>"; };
 		3F7F2A5E265BCFC500D0176B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7F2A6D265BD9A200D0176B /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		3F7F2A72265BD9CF00D0176B /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				3F7F2A45265BCFC500D0176B /* LaunchScreen.storyboard */,
 				3F7F2A48265BCFC500D0176B /* Info.plist */,
 				3F7F2A40265BCFC200D0176B /* TrackEvent.xcdatamodeld */,
+				3F7F2A6D265BD9A200D0176B /* EntryViewController.swift */,
+				3F7F2A72265BD9CF00D0176B /* TaskViewController.swift */,
 			);
 			path = TrackEvent;
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7F2A3C265BCFC200D0176B /* ViewController.swift in Sources */,
+				3F7F2A6E265BD9A200D0176B /* EntryViewController.swift in Sources */,
 				3F7F2A38265BCFC200D0176B /* AppDelegate.swift in Sources */,
 				3F7F2A42265BCFC200D0176B /* TrackEvent.xcdatamodeld in Sources */,
 				3F7F2A3A265BCFC200D0176B /* SceneDelegate.swift in Sources */,
+				3F7F2A73265BD9CF00D0176B /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
